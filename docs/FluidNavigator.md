@@ -21,7 +21,8 @@ You can configure transitions for the navigator just like with the StackNavigato
 const transitionConfig = {
   duration: 1500,
   timing: Animated.timing,
-  easing: Easing.easing
+  easing: Easing.easing, 
+  isInteraction: false
 };
 
 const Navigator = FluidNavigator({ Screens }, { transitionConfig });
